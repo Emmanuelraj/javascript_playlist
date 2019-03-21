@@ -1,0 +1,106 @@
+body{
+        font-family: verdana;
+        font-size:10px;
+        background-color: #ddd;
+}
+
+h1
+{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+}
+
+.navbar
+{
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+
+#search
+{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  width: 100%;
+    margin : auto;
+    overflow: none;
+}
+
+#body-h1
+{
+  text-align: center;
+  color: black;
+  font-family: cursive;
+}
+
+
+.container
+{
+    width:960px;
+    background: #fff;
+	 	margin: 0 auto;
+	 	border-radius:6px;
+	 	overflow: hidden;
+	 	border: 1px solid grey;
+	 	padding: 0 0 20px;
+	 	box-sizing: border-circle;
+	    box-shadow : 0px 1px 6px rgba(0,0,0,0.2);
+}
+
+ul{
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  display: inline-block;
+}
+
+
+.form-control
+{
+  border-radius: 5px;
+  border: solid grey;
+  margin: 0 auto;
+  padding: 10px;
+  display: inline-block;
+  width: 80%;
+}
+
+
+#btn
+{
+   padding: 10px;
+   width: 10%;
+   border-radius: 5px;
+   background-color: grey;
+   color:white;
+}
+
+#btn:hover
+{
+   background-color: black;
+}
+
+
+@media(max-width:100px)
+
+{
+	.container .navbar
+	{
+	width: 100%;
+
+	}
+}
+
+
+
+li
+{
+  list-style: none;
+}
